@@ -33,6 +33,5 @@ def main():
 	
 	TopMovies=pd.DataFrame(name_list,index=np.arange(1,251),columns=['Title'])
 	TopMovies.to_excel('douban.xlsx',sheet_name='Sheet1')
-
 if __name__=='__main__':
 	main()
